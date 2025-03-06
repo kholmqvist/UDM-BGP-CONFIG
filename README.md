@@ -17,6 +17,14 @@ For some reason it wasn't enough to just upload the configuration file. I had to
 
 `vtysh -c "show ip route"` - Shows routing table
 
+`vtysh -c "show ip bgp"` - Shows only BGP routes
+
+`vtysh -c "show ip bgp neighbors"` - Shows information about BGP neighbors
+
+`vtysh -c "show ip bgp summary"` - Shows a summary of BGP neighbors
+
+`vtysh -c "show ip bgp statistics"` - Shows BGP statistics
+
 `vtysh -c "show ip bgp prefix-list lan-networks"` - Shows content of prefix list named ***lan-networks***
 
 `vtysh -c "show ip bgp route-map lan"` - Shows content of route map named ***lan***
